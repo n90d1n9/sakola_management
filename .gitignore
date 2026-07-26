@@ -1,54 +1,41 @@
 ```
-# Flutter/Dart specific
+# Dependencies
+.pub/
 .dart_tool/
-.packages
-pubspec.lock
-*.g.dart
-*.freezed.dart
-
-# Build
 build/
-**/ios/Flutter/.last_build_id
-
-# iOS
-**/ios/Pods/
-**/ios/.symlinks/
-**/ios/build/
-**/ios/xcuserdata/
-**/ios/Podfile.lock
-*.xcodeproj/
-
-# Android
-**/android/**/gradle-wrapper.properties
-**/android/build/
-**/android/app/build/
-**/android/.gradle/
-**/android/local.properties
-**/android/key.properties
-
-# Web
-**/web/build/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Logs
 *.log
-*.tmp
+**/logs
 
-# Dependencies
-node_modules/
-vendor/
+# Environment variables
+.env
+.env.local
+.env.*
+config.env
 
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+*.lcov
+*.coverage
+
+# Temporary files
+*.tmp
+*.temp
+**/temp/
 ```
