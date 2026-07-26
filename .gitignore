@@ -1,34 +1,103 @@
 ```
-# Flutter/Dart specific
-.dart_tool/
-.build/
-bin/cache/
-bin/internal/
-dependencies/
-.flutter-plugins
-.flutter-plugin-dependencies
+# Build artifacts
+build/
+dist/
+
+# Dependencies
+.pub-cache/
 .packages
+.dart_tool/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python related (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.MF
+tags
+TAGS
+*~
+\#*\#
+.\#*
+%,v
+%-bash
+.project
+.pydevproject
+.vscode/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Dart/Flutter specific
+.dart_tool/
+.packages
+.pub/
+build/
 *.g.dart
 *.freezed.dart
 
-# Dependencies
-pubspec.lock
-
-# Logs
-*.log
-**/logs
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
